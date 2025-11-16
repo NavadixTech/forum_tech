@@ -4,7 +4,7 @@ import { useState, useEffect } from "react"
 import Link from "next/link"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
-import { Menu, X } from "lucide-react"
+import { Menu, X, Download } from "lucide-react"
 
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -60,6 +60,12 @@ export function Navbar() {
                 {link.label}
               </Link>
             ))}
+            <Button asChild variant="default" className="bg-[#013afb] hover:bg-[#013afb]/90">
+              <a href="/livret.pdf" download className="flex items-center gap-2">
+                <Download className="h-4 w-4" />
+                Livret
+              </a>
+            </Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -87,6 +93,12 @@ export function Navbar() {
                   {link.label}
                 </Link>
               ))}
+              <Button asChild variant="default" className="bg-[#013afb] hover:bg-[#013afb]/90 w-full">
+                <a href="/livret.pdf" download className="flex items-center justify-center gap-2">
+                  <Download className="h-4 w-4" />
+                  Télécharger le livret
+                </a>
+              </Button>
             </div>
           </div>
         )}
