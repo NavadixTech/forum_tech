@@ -66,9 +66,9 @@ export function Speakers({ showAll = false }: SpeakersProps) {
     },
     {
       name: "Sacha Lamour",
-      role: "DevOps Engineer",
-      company: "CloudSystems",
-      image: "/sacha.jpeg",
+      role: "Synaptic-Hub & Etudiant 2ème année",
+      company: "Epitech Moulins",
+      image: "/sacha.jpg",
     },
     {
       name: "Ines Desgranges Palmieri",
@@ -138,8 +138,8 @@ export function Speakers({ showAll = false }: SpeakersProps) {
     },
     {
       name: "Cyril Martin",
-      role: "Directeur",
-      company: "Google",
+      role: "Directeur ",
+      company: "Moulins Communauté",
       image: "/cyril.png",
     },
     {

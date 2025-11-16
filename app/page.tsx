@@ -5,6 +5,7 @@ import { Program } from "@/components/program"
 import { Speakers } from "@/components/speakers"
 import { Location } from "@/components/location"
 import { Contact } from "@/components/contact"
+import { Partners } from "@/components/partners"
 import { Footer } from "@/components/footer"
 
 export default function Page() {
@@ -17,6 +18,7 @@ export default function Page() {
       <Speakers />
       <Location />
       <Contact />
+      <Partners />
       <Footer />
     </main>
   )

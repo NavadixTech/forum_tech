@@ -12,33 +12,33 @@ export function Contact() {
 
         {/* Informations de contact */}
         <div className="grid md:grid-cols-3 gap-6 max-w-3xl mx-auto">
-          <div className="bg-black/40 p-8 rounded-xl border border-[#7eb9a6]/30 hover:border-[#00ff97] transition-all hover:scale-105 shadow-lg">
+          <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-8 hover:bg-white/20 transition-all hover:scale-105 shadow-xl">
             <h3 className="text-xl font-bold mb-4 text-[#00ff97] text-center">📧 Email</h3>
             <a
-              href="mailto:contact@forumtech.fr"
-              className="text-[#ff5f3a] hover:text-[#00ff97] transition-colors block text-center"
+              href="david.figueiredo@epitech.eu"
+              className="text-[#ff5f3a] hover:text-[#ff5f3a] transition-colors block"
             >
               david.figueiredo@epitech.eu
             </a>
           </div>
 
-          <div className="bg-black/40 p-8 rounded-xl border border-[#7eb9a6]/30 hover:border-[#00ff97] transition-all hover:scale-105 shadow-lg">
+          <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-8 hover:bg-white/20 transition-all hover:scale-105 shadow-xl">
             <h3 className="text-xl font-bold mb-4 text-[#00ff97] text-center">📱 Téléphone</h3>
             <a
               href="tel:+33470355025"
-              className="text-[#ff5f3a] hover:text-[#00ff97] transition-colors block text-center"
+              className="text-[#ff5f3a] hover:text-[#ff5f3a] transition-colors block text-center"
             >
               +33 (0)6 63 42 83 07
             </a>
           </div>
 
-          <div className="bg-black/40 p-8 rounded-xl border border-[#7eb9a6]/30 hover:border-[#00ff97] transition-all hover:scale-105 shadow-lg">
+          <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-8 hover:bg-white/20 transition-all hover:scale-105 shadow-xl">
             <h3 className="text-xl font-bold mb-4 text-[#00ff97] text-center">🔗 LinkedIn</h3>
             <a
               href="https://www.linkedin.com/showcase/epitech-moulins/posts/?feedView=all"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#ff5f3a] hover:text-[#00ff97] transition-colors block text-center"
+              className="text-[#ff5f3a] hover:text-[#ff5f3a] transition-colors block text-center"
             >
               Epitech Moulins
             </a>
