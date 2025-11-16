@@ -1,6 +1,5 @@
 "use client"
 
-import { useEffect, useRef, useState } from "react"
 import Image from "next/image"
 import Link from "next/link"
 import { Card, CardContent } from "@/components/ui/card"
@@ -11,27 +10,6 @@ interface SpeakersProps {
 }
 
 export function Speakers({ showAll = false }: SpeakersProps) {
-  const [visibleCards, setVisibleCards] = useState<Set<number>>(new Set())
-  const observerRef = useRef<IntersectionObserver | null>(null)
-
-  useEffect(() => {
-    observerRef.current = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            const index = Number(entry.target.getAttribute("data-index"))
-            setVisibleCards((prev) => new Set(prev).add(index))
-          }
-        })
-      },
-      { threshold: 0.1 },
-    )
-
-    const cards = document.querySelectorAll(".speaker-card")
-    cards.forEach((card) => observerRef.current?.observe(card))
-
-    return () => observerRef.current?.disconnect()
-  }, [])
 
   const speakers = [
     {
@@ -104,7 +82,7 @@ export function Speakers({ showAll = false }: SpeakersProps) {
       name: "Céline Didier",
       role: "Directrice",
       company: "Croix Rouge Compétence",
-      image: "/celine.png",
+      image: "/celine.jpeg",
     },
     {
       name: "Yurick Curtin",
@@ -164,7 +142,7 @@ export function Speakers({ showAll = false }: SpeakersProps) {
       name: "Jean Philippe Giraud",
       role: "Chargé de mission",
       company: "",
-      image: "/giraud.png",
+      image: "/jean-phi.png",
     },
     {
       name: "Chrystelle Prost-Bourdon",
@@ -260,7 +238,7 @@ export function Speakers({ showAll = false }: SpeakersProps) {
       name: "Veronique Lanceau",
       role: "Proviseur",
       company: "College Charles Peguy",
-      image: "/vero.png",
+      image: "/vero.jpeg",
     },
     {
       name: "Sonia Di Pasqua",
@@ -292,6 +270,12 @@ export function Speakers({ showAll = false }: SpeakersProps) {
       company: "",
       image: "/cabanne.png",
     },
+    {
+      name: "Colin Cleary",
+      role: "Responsable Innovation",
+      company: "Epitech",
+      image: "/colin.jpeg",
+    },
 ]
 
   const displayedSpeakers = showAll ? speakers : speakers.slice(0, 3)
@@ -311,11 +295,7 @@ export function Speakers({ showAll = false }: SpeakersProps) {
           {displayedSpeakers.map((speaker, index) => (
             <Card
               key={index}
-              data-index={index}
-              className={`speaker-card overflow-hidden bg-white border-[#7eb9a6]/20 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-[#013afb]/20 hover:-translate-y-2 hover:border-[#013afb] cursor-pointer group ${
-                visibleCards.has(index) ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-              }`}
-              style={{ transitionDelay: `${index * 100}ms` }}
+              className="overflow-hidden bg-white border-[#7eb9a6]/20 transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-[#013afb]/20 hover:-translate-y-2 hover:border-[#013afb] cursor-pointer group"
             >
               <div className="relative h-64 bg-gradient-to-br from-[#013afb] to-[#00ff97] overflow-hidden">
                 <Image
