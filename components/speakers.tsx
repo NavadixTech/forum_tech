@@ -92,15 +92,21 @@ export function Speakers({ showAll = false }: SpeakersProps) {
     },
     {
       name: "Evan Verplaetse",
-      role: "Président NextPit & Etudiant 2ème année",
+      role: "Président NexPit & Etudiant 2ème année",
       company: "Epitech Moulins",
       image: "/evan.png",
     },
     {
       name: "Titouan Beaurepaire",
-      role: "Président NextPit & Etudiant 2ème année",
+      role: "Président NexPit & Etudiant 2ème année",
       company: "Epitech Moulins",
       image: "/titouna.png",
+    },
+    {
+      name: "Michaël Derrien",
+      role: "Président NexPit & Etudiant 2ème année",
+      company: "Epitech Moulins",
+      image: "/mika.jpg",
     },
     {
       name: "Thaïs Verinaud-coma ",

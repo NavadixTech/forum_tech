@@ -19,13 +19,13 @@ export function Navbar() {
   }, [])
 
   const navLinks = [
-    { href: "/", label: "Accueil", isAnchor: false },
-    { href: "#about", label: "À propos", isAnchor: true },
-    { href: "#program", label: "Programme", isAnchor: true },
-    { href: "/ateliers", label: "Ateliers", isAnchor: false },
-    { href: "/intervenants", label: "Intervenants", isAnchor: false },
-    { href: "#location", label: "Lieu", isAnchor: true },
-    { href: "#contact", label: "Contact", isAnchor: true },
+    { href: "/", label: "Accueil" },
+    { href: "/#about", label: "À propos" },
+    { href: "/#program", label: "Programme" },
+    { href: "/ateliers", label: "Ateliers" },
+    { href: "/intervenants", label: "Intervenants" },
+    { href: "/#location", label: "Lieu" },
+    { href: "/#contact", label: "Contact" },
   ]
 
   return (
