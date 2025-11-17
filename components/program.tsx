@@ -63,7 +63,7 @@ export function Program() {
           <TabsContent value="jour1" className="space-y-8">
             <div className="bg-white rounded-lg p-8 border-2 border-gray-200">
               <h3 className="text-2xl font-heading font-bold mb-6 text-black relative inline-block">
-                <span className="bg-[#00ff97] px-2 py-1">Dimanche 8 Décembre 2025</span>
+                <span className="bg-[#00ff97] px-2 py-1">Lundi 8 Décembre 2025</span>
               </h3>
 
               <div className="space-y-4">
@@ -246,7 +246,7 @@ export function Program() {
           <TabsContent value="jour2" className="space-y-8">
             <div className="bg-white rounded-lg p-8 border-2 border-gray-200">
               <h3 className="text-2xl font-heading font-bold mb-6 text-black relative inline-block">
-                <span className="bg-[#00ff97] px-2 py-1">Lundi 9 Décembre 2025</span>
+                <span className="bg-[#00ff97] px-2 py-1">Mardi 9 Décembre 2025</span>
               </h3>
 
               <div className="space-y-4">
@@ -427,7 +427,7 @@ export function Program() {
           <TabsContent value="jour3" className="space-y-8">
             <div className="bg-white rounded-lg p-8 border-2 border-gray-200">
               <h3 className="text-2xl font-heading font-bold mb-6 text-black relative inline-block">
-                <span className="bg-[#00ff97] px-2 py-1">Mardi 10 Décembre 2025</span>
+                <span className="bg-[#00ff97] px-2 py-1">Mercredi 10 Décembre 2025</span>
               </h3>
 
               <div className="space-y-4">
@@ -474,7 +474,7 @@ export function Program() {
           <TabsContent value="jour4" className="space-y-8">
             <div className="bg-white rounded-lg p-8 border-2 border-gray-200">
               <h3 className="text-2xl font-heading font-bold mb-6 text-black relative inline-block">
-                <span className="bg-[#ff1ef7] text-white px-2 py-1">Mercredi 11 Décembre 2025 - CODING GIRL</span>
+                <span className="bg-[#ff1ef7] text-white px-2 py-1">Jeudi 11 Décembre 2025 - CODING GIRL</span>
               </h3>
 
               <div className="space-y-4">
@@ -597,7 +597,7 @@ export function Program() {
           <TabsContent value="jour5" className="space-y-8">
             <div className="bg-white rounded-lg p-8 border-2 border-gray-200">
               <h3 className="text-2xl font-heading font-bold mb-6 text-black relative inline-block">
-                <span className="bg-[#ff5f3a] text-white px-2 py-1">Jeudi 12 Décembre 2025 - SCIENCE BOOST</span>
+                <span className="bg-[#ff5f3a] text-white px-2 py-1">Vendredi 12 Décembre 2025 - SCIENCE BOOST</span>
               </h3>
 
               <div className="space-y-4">

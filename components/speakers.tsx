@@ -121,7 +121,7 @@ export function Speakers({ showAll = false }: SpeakersProps) {
       image: "/cyril.png",
     },
     {
-      name: "Emmanuelle Gillet Lorenzig",
+      name: "Emmanuelle Gillet Lorenzi",
       role: "Docteure & Cheffe de projet Ruralités villages d’avenir 1% paysage, développement cadre de vie",
       company: "Fonction publique",
       image: "/emanuelle.png",
