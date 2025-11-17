@@ -276,6 +276,12 @@ export function Speakers({ showAll = false }: SpeakersProps) {
       company: "Epitech",
       image: "/colin.jpeg",
     },
+    {
+      name: "Juliette Breha",
+      role: "Concepteur, développeur, analyste PL - Datascientist",
+      company: "Michelin",
+      image: "/juliette.png",
+    },
 ]
 
   const displayedSpeakers = showAll ? speakers : speakers.slice(0, 3)

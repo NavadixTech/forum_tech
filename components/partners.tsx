@@ -38,6 +38,7 @@ export function Partners() {
     { id: 33, ext: "jpeg" },
     { id: 34, ext: "jpeg" },
     { id: 35, ext: "png" },
+    { id: 36, ext: "png" },
   ]
 
   return (
