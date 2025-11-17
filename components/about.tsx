@@ -45,7 +45,7 @@ export function About() {
               tous les passionnés de technologie, d&apos;innovation et de numérique dans la région.
             </p>
             <p className="text-lg leading-relaxed mb-6 font-sans text-gray-800">
-              Pendant trois jours intenses, plongez dans un univers où se mêlent conférences inspirantes, ateliers
+              Pendant cinque jours intenses, plongez dans un univers où se mêlent conférences inspirantes, ateliers
               pratiques, démonstrations de startups innovantes, rencontres avec des experts du secteur, networking et
               bien plus encore !
             </p>
