@@ -70,11 +70,7 @@ export function Location() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-[#00ff97] font-bold">•</span>
-                  <span>Accès transports en commun : Bus ligne X</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-[#00ff97] font-bold">•</span>
-                  <span>Gare SNCF à proximité (15 min à pied)</span>
+                  <span>Accès transports en commun</span>
                 </li>
               </ul>
             </div>

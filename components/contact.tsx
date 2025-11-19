@@ -25,7 +25,7 @@ export function Contact() {
           <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-8 hover:bg-white/20 transition-all hover:scale-105 shadow-xl">
             <h3 className="text-xl font-bold mb-4 text-[#00ff97] text-center">📱 Téléphone</h3>
             <a
-              href="tel:+33470355025"
+              href="tel:+33663428307"
               className="text-[#ff5f3a] hover:text-[#ff5f3a] transition-colors block text-center"
             >
               +33 (0)6 63 42 83 07
