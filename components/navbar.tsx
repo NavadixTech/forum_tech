@@ -41,11 +41,11 @@ export function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center">
             <Image
-              src="/epitech_bleu.png"
+              src="/synaptic.png"
               alt="Epitech"
               width={120}
               height={40}
-              className="hover:opacity-80 transition-opacity"
+              className="scale-[2] origin-left"
             />
           </Link>
 
