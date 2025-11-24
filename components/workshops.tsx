@@ -122,7 +122,7 @@ const workshops: Workshop[] = [
   },
   {
     id: 12,
-    title: "NextPit & Synaptic Hub : Créer une Start-up en Territoire Rural",
+    title: "NexPit & Synaptic Hub : Créer une Start-up en Territoire Rural",
     category: "CONFÉRENCE",
     description: "Les enjeux de la création de start-ups sur nos territoires. Témoignages et conseils.",
     duration: "1h15",

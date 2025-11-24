@@ -112,7 +112,7 @@ export function Program() {
                         <MapPin className="w-4 h-4" />
                         <span>Salle principale</span>
                       </div>
-                      <p className="text-gray-700">La robotique, IA (ses freins, ses enjeux, et son avenir), métiers du numérique du futur, la gestion de projet informatique dans un grand groupe, Stellantis, NextPit, Synaptic Hub (enjeu à la création de start-up sur nos territoires)</p>
+                      <p className="text-gray-700">La robotique, IA (ses freins, ses enjeux, et son avenir), métiers du numérique du futur, la gestion de projet informatique dans un grand groupe, Stellantis, NexPit, Synaptic Hub (enjeu à la création de start-up sur nos territoires)</p>
                     </div>
                     <div className="text-[#013afb] text-sm flex items-center gap-1">
                       <Clock className="w-4 h-4" />
@@ -293,7 +293,7 @@ export function Program() {
                         <MapPin className="w-4 h-4" />
                         <span>Salle principale</span>
                       </div>
-                      <p className="text-gray-700">La robotique, IA (ses freins, ses enjeux, et son avenir), métiers du numérique du futur, la gestion de projet informatique dans un grand groupe, Stellantis, NextPit, Synaptic Hub</p>
+                      <p className="text-gray-700">La robotique, IA (ses freins, ses enjeux, et son avenir), métiers du numérique du futur, la gestion de projet informatique dans un grand groupe, Stellantis, NexPit, Synaptic Hub</p>
                     </div>
                     <div className="text-[#013afb] text-sm flex items-center gap-1">
                       <Clock className="w-4 h-4" />
