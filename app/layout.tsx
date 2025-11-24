@@ -1,7 +1,6 @@
 import type React from "react"
 import type { Metadata } from "next"
 import { Anton, IBM_Plex_Sans, Space_Mono } from "next/font/google"
-import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 
 const anton = Anton({
@@ -26,7 +25,6 @@ export const metadata: Metadata = {
   title: "Forum Tech 2025 - Le rendez-vous tech de Moulins",
   description:
     "Forum Tech 2025 - 10, 11 & 12 décembre à Epitech Moulins. Le rendez-vous incontournable de la technologie et de l'innovation.",
-  generator: "v0.app",
   icons: {
     icon: [
       {
@@ -55,7 +53,6 @@ export default function RootLayout({
     <html lang="fr">
       <body className={`${ibmPlexSans.variable} ${anton.variable} ${spaceMono.variable} font-sans antialiased`}>
         {children}
-        <Analytics />
       </body>
     </html>
   )
