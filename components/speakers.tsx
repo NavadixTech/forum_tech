@@ -224,8 +224,8 @@ export function Speakers({ showAll = false }: SpeakersProps) {
     },
     {
       name: "Nicolas Chanet",
-      role: "Assistant de Direction",
-      company: "Talent Hub Manager",
+      role: "Directeur de d'antenne",
+      company: "Kyndryl Clermont-Ferrand ",
       image: "/chanet.png",
     },
     {
