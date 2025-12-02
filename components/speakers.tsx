@@ -267,7 +267,7 @@ export function Speakers({ showAll = false }: SpeakersProps) {
     {
       name: "Thomas Guidez",
       role: "Streamer",
-      company: "",
+      company: "https://Twitch.tv/rimfiire",
       image: "/thomas.png",
     },
     {
